@@ -38,3 +38,21 @@ def pyramid_star(n):
         st+=2
 
 pyramid_star(int(input("n= ")))
+
+#another star pattern
+def pttrn(n):
+    sp=n-1
+    st=1
+    for i in range(n):
+        for j in range(st):
+            print("*", end=" ")
+        for k in range(sp):
+            print(" ", end=" ")
+            print("*", end=" ")
+        for m in range(st-1):
+            print("*", end=" ")
+        print()
+        sp-=1
+        st+=1
+
+pttrn(int(input("n= ")))
