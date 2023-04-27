@@ -1,4 +1,12 @@
 #number rhombus patters
+'''
+    1 
+  2 1 2 
+3 2 1 2 3 
+  3 2 3 
+    3 
+'''
+
 def rhombus_pttrn(n):
     sp = n//2
     st = 1
@@ -25,6 +33,13 @@ def rhombus_pttrn(n):
 rhombus_pttrn(int(input("n= ")))
 
 #star pattern pyramid
+'''
+        * 
+      * * * 
+    * * * * * 
+  * * * * * * * 
+* * * * * * * * * 
+'''
 def pyramid_star(n):
     sp=n-1
     st=1
@@ -40,6 +55,13 @@ def pyramid_star(n):
 pyramid_star(int(input("n= ")))
 
 #another star pattern
+'''
+*   *   *   *   * 
+* *   *   *   * * 
+* * *   *   * * * 
+* * * *   * * * * 
+* * * * * * * * *
+'''
 def pttrn(n):
     sp=n-1
     st=1
